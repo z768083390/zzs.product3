@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*导航开始*/
+.container {
+	width: 100%;
+	height: 900px;
+	/*background: #000;*/
+}
+.header {
+	width: 1266px;
+	height: 480px;
+	/*background-color: skyblue;*/
+	margin: 0 auto;
+	position: relative;
+}
+.pic {
+	width: 1266px;
+	height: 467px;
+	background:url(Earth/44.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+.nav {
+	width: 667px;
+	height: 38px;
+	background: url(Earth/441.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+}
+.nav ul {
+	margin-left: 60px;
+}
+.nav ul li {
+	/*width: 100px;*/
+	height: 40px;
+	list-style: none;
+	float: left;
+	padding: 0 20px;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.nav ul li a:hover {
+	color: #861C20;
+	/*font-size: 22px;*/
+}
+/*导航结束*/
+/*作者介绍*/
+.content {
+	width:1266px;
+	/*height: 900px;*/
+	/*background: black;*/
+	margin:0 auto;
+}
+.author_nav {
+	width: 1266px;
+	height: 50px;
+	/*background: #666;*/
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+.author_nav a {
+	font-size: 26px;
+	line-height: 50px;
+	border-bottom: 5px solid #6D0E11;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.author {
+	width: 1266px;
+	height: 500px;
+	/*background: #E3E3E3;*/
+	background:linear-gradient(to left,#E3E3E3,#939393);
+	position: relative;
+}
+.author_photo {
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.author_photo img {
+
+	box-shadow: 7px 9px 24px #666;
+	border: 2px solid #fff;
+}
+.author_introduction {
+	width: 800px;
+	height: 300px;
+	/*background: #666;*/
+	float: right;
+	font-size: 23px;
+	margin-right: 50px;
+	margin-top: 30px;
+	color: #1A1A1A;
+}
+.author_introduction b {
+	font-size: 2em;
+}
+.author_introduction ul li {
+	margin-top: 10px;
+}
+.author_more {
+	width: 1266px;
+	height: 50px;
+	/*background: #666;*/
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+.author_more a {
+	width: 300px;
+	height: 50px;
+	background: #747474;
+	font-size: 24px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	border-radius: 15px;
+
+	/*border: 1px solid #4383F0;*/
+}
+.author_more a:hover {
+	color: #fff;
+	background: #3B3B3B;
+}
+/*流浪地球介绍*/
+.wandering {
+	width: 1266px;
+	height: 600px;
+	/*background: #E3E3E3;*/
+	background:linear-gradient(to left,#939393,#E3E3E3);
+	position: relative;
+}
+.wandering_photo {
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.wandering_photo img{
+	width: 300px;
+	box-shadow: 5px 9px 20px #666;
+	border: 2px solid #fff;
+}
+.wandering_introduction {
+	width: 800px;
+	height: 450px;
+	/*background: #666;*/
+	float: right;
+	font-size: 23px;
+	margin-right: 50px;
+	margin-top: 30px;
+	color: #1A1A1A;
+	position: relative;
+}
+.wandering_introduction span {
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: -30px;
+}
+.wandering_introduction ul li {
+	margin-top: 10px;
+}
+.wandering_introduction h4 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #666;
+	font-size: 20px;
+	text-indent: 2em;
+}
+.wandering_more {
+	position: absolute;
+	bottom: 20px;
+	width: 1266px;
+	height: 50px;
+	/*background: #666;*/
+	text-align: center;
+}
+.wandering_more a {
+	width: 300px;
+	height: 50px;
+	background: #747474;
+	font-size: 24px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	border-radius: 15px;
+
+	/*border: 1px solid #3B3B3B;*/
+}
+.wandering_more a:hover {
+	color: #fff;
+	background: #3B3B3B;
+}
+/*优秀作品*/
+.writing_more {
+	width: 1266px;
+	height: 650px;
+	/*background: #666;*/
+}
+.santi {
+	width: 355px;
+	height: 570px;
+	/*background: #666;*/
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+	position: relative;
+}
+.santi img {
+	width: 350px;
+	box-shadow: 1px 5px 20px #666;
+	border: 1px solid #fff;
+}
+.santi img:hover {
+	opacity: 0.8;
+}
+.santi_words {
+	text-align: center;
+}
+.santi_words p {
+	width: 350px;
+	height: 50px;
+	/*background: skyblue;*/
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	font-family: Serif;
+}
+/*底部*/
+.footer {
+	width: 100%;
+	height:300px;
+	background: #1E1C18; 
+	display: flex;
+}
+.link {
+	width: 900px;
+	height: 250px;
+	background: #282725;
+	margin: 25px auto;
+	border-radius: 15px;
+}
+.link img {
+	width: 300px;
+	float: left;
+}
+.link p {
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.douban img {
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.baidu img {
+	/*margin-top: 20px;*/
+}
